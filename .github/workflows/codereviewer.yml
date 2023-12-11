@@ -1,10 +1,11 @@
 name: Zordon AI code reviewer
-on:
-  workflow_call:
+pull_request:
+  branches:
+    - main
+  types: [opened, synchronize]
 
 jobs:
   review:
-    needs: gitleaks
     runs-on: ubuntu-latest
     steps:
       - name: Initializing
