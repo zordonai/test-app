@@ -2,7 +2,7 @@ name: Zordon AI code reviewer
 on:
   pull_request:
     branches:
-      - master
+      - main
     types: [opened, synchronize]
 
 jobs:
