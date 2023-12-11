@@ -12,5 +12,5 @@ jobs:
       - name: CodeReview
         uses: zordonai/codereviewer@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GLOBAL_GITHUB_TOKEN }}
           palm_api_key: ${{ secrets.PALM_API_KEY }}
