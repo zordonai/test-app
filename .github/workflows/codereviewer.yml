@@ -1,0 +1,16 @@
+name: Zordon AI code reviewer
+on:
+  workflow_call:
+
+jobs:
+  review:
+    needs: gitleaks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initializing
+        uses: actions/checkout@v3
+      - name: CodeReview
+        uses: zordonai/codereviewer@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          palm_api_key: ${{ secrets.PALM_API_KEY }}
