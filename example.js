@@ -9,6 +9,7 @@ console.log("example 7");
 console.log("example 8");
 console.log("example 9");
 console.log("example 10");
+console.log("example 11");
 
 if (true) {
   console.log("veio aqui");
