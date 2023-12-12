@@ -5,6 +5,7 @@ console.log("example 3");
 console.log("example 4");
 console.log("example 5");
 console.log("example 6");
+console.log("example 7");
 
 if (true) {
   console.log("veio aqui");
