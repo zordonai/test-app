@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - main
+      - test/codereviewer-2
     types: [opened, synchronize]
 
 jobs:
