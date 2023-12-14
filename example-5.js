@@ -8,15 +8,3 @@ console.log("example-5-7");
 console.log("example-5-8");
 console.log("example-5-9");
 console.log("example-5-10");
-
-if (true) {
-  console.log("veio aqui");
-}
-
-if (true) {
-  console.log("veio aqui não");
-}
-
-const print = (text) => console.log(text);
-
-const doSomething = (a, b) => a + b;
