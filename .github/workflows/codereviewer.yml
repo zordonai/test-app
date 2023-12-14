@@ -3,7 +3,7 @@ on:
   pull_request:
     branches:
       - main
-      - test/codereviewer-2
+      - test/codereviewer-4
     types: [opened, synchronize]
 
 jobs:
@@ -16,4 +16,4 @@ jobs:
         uses: zordonai/codereviewer@main
         with:
           github_token: ${{ secrets.GLOBAL_GITHUB_TOKEN }}
-          palm_api_key: ${{ secrets.PALM_API_KEY }}
+          bard_api_cookie: ${{ secrets.BARD_API_COOKIE }}
