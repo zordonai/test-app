@@ -1,0 +1,7 @@
+{
+  "openai": {
+    "options": {
+      "temperature": 0.3
+    }
+  }
+}
