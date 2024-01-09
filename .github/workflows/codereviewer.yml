@@ -10,10 +10,8 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - name: Initializing
-        uses: actions/checkout@v3
       - name: CodeReview
-        uses: zordonai/codereviewer@main
+        uses: zordonai/codereviewer@v1.0.0-beta.1
         with:
           github_token: ${{ secrets.GLOBAL_GITHUB_TOKEN }}
           palm_api_key: ${{ secrets.PALM_API_KEY }}
